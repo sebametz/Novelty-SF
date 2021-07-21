@@ -1,0 +1,20 @@
+INFO Selected: Output dir: ./
+INFO Selected: Query file: Choano_ASVs_alignment.fasta
+INFO Selected: Tree file: ../Holozoa.einsi.trimal.fasta.treefile
+INFO Selected: Reference MSA: ../Holozoa.einsi.trimal.fasta
+INFO Selected: Automatic switching of use of per rate scalers
+INFO Selected: Preserving the root of the input tree
+INFO Selected: Specified model: TN93+F+r6
+INFO     ______ ____   ___           _   __ ______
+        / ____// __ \ /   |         / | / // ____/
+       / __/  / /_/ // /| | ______ /  |/ // / __  
+      / /___ / ____// ___ |/_____// /|  // /_/ /  
+     /_____//_/    /_/  |_|      /_/ |_/ \____/ (v0.3.8)
+INFO Using model parameters:
+INFO    Rate heterogeneity: FREE (6 cats, mean),  weights&rates: (0.166667,0.0883922) (0.166667,0.289747) (0.166667,0.542419) (0.166667,0.882217) (0.166667,1.40547) (0.166667,2.79176) 
+        Base frequencies (empirical): 0.268894 0.157021 0.25733 0.316755 
+        Substitution rates (ML): 0.5 0.5 0.5 0.5 0.5 1
+INFO Output file: ./epa_result.jplace
+INFO 160 Sequences done!
+INFO Time spent placing: 0s
+INFO Elapsed Time: 0s

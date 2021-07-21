@@ -1,0 +1,311 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    r2i2n4 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s Perkinsea18S.einsi.trimal.fasta -m MFP -alrt 1000 -T AUTO -ntmax 20
+Seed:    531976 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat May  8 10:29:57 2021
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file Perkinsea18S.einsi.trimal.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 117 sequences with 1625 columns, 1228 distinct patterns
+849 parsimony-informative, 184 singleton sites, 592 constant sites
+                                     Gap/Ambiguity  Composition  p-value
+   1  AF472555_Amoebophrya_sp.               0.43%    passed     93.96%
+   2  U27500_Alexandrium_ostenfeldii         0.00%    passed     72.31%
+   3  M88521_Symbiodinium_microadriaticum    0.25%    passed     94.95%
+   4  AF080096_Amyloodinium_ocellatum        0.00%    passed     72.86%
+   5  X75762.1                               1.05%    passed     88.33%
+   6  AF042708.1                             0.25%    passed     69.12%
+   7  AF126013.1                             0.31%    passed     68.78%
+   8  AF530535.1                             0.43%    passed     72.72%
+   9  DM055080.1                             0.12%    passed     74.52%
+  10  AF497479.1                             0.12%    passed     74.22%
+  11  AF509333.1                             0.12%    passed     69.06%
+  12  KX513986.1                             0.12%    passed     69.06%
+  13  KX513992.1                             0.12%    passed     69.06%
+  14  AY486140.1                             0.12%    passed     69.06%
+  15  AY487831.1                             0.12%    passed     69.06%
+  16  AF252288.2                             0.18%    passed     77.89%
+  17  AF324218.1                             4.37%    passed     91.48%
+  18  FJ832127.1                             8.62%    passed     56.35%
+  19  AB716689.1                             0.12%    passed     74.57%
+  20  AY642744.1                            22.34%    passed     80.16%
+  21  DQ455739.1                            24.37%    passed     67.26%
+  22  EF196703.1                            50.09%    passed     83.86%
+  23  EU162628.1                             0.80%    passed     95.16%
+  24  HQ191345.1                             0.80%    passed     96.03%
+  25  JN090873.1                             0.98%    passed     88.01%
+  26  EF196722.1                            43.63%    passed     72.05%
+  27  EU162624.1                             0.86%    passed     26.98%
+  28  FJ410602.1                            51.69%    passed     88.34%
+  29  EF527175.1                             5.35%    passed     85.72%
+  30  DQ103802.1                             3.82%    passed     93.98%
+  31  GQ330637.1                            11.75%    passed     93.24%
+  32  AY919735.1                             0.86%    passed     83.78%
+  33  EF196788.1                            48.55%    passed     97.55%
+  34  DQ244038.1                             0.37%    passed     46.94%
+  35  GU067813.1                            47.94%    passed     50.83%
+  36  FJ410549.1                            51.26%    passed     82.48%
+  37  JN547327.1                             4.80%    passed     93.57%
+  38  FJ410723.1                            52.18%    passed     76.78%
+  39  EF196787.1                            41.11%    passed     91.56%
+  40  EU162629.1                             0.31%    passed     73.86%
+  41  EU162626.1                             0.55%    passed     71.99%
+  42  EF675616.1                             3.51%    passed     89.66%
+  43  KY679209.1                            35.08%    passed     87.51%
+  44  FJ350596.1                            36.37%    passed     74.87%
+  45  JN705491.1                            22.52%    passed     80.56%
+  46  JN705516.1                            20.49%    passed     80.09%
+  47  FJ410738.1                            51.88%    passed     74.69%
+  48  FJ410770.1                            51.20%    passed     86.12%
+  49  JN547289.1                            42.58%    passed     86.29%
+  50  KJ925159.1                             1.85%    passed     85.40%
+  51  KJ925165.1                             1.85%    passed     89.07%
+  52  KJ925178.1                             1.85%    passed     86.47%
+  53  EF526760.1                             5.11%    passed     97.42%
+  54  EF526795.1                            21.72%    passed     70.59%
+  55  EF526831.1                            20.00%    passed     96.37%
+  56  KU757363.1                            43.51%    passed     91.89%
+  57  EF065717_Hematodinium_perezi           0.00%    passed     72.93%
+  58  JN705495.1                            20.62%    passed     31.21%
+  59  AY919720.1                             0.06%    passed     97.90%
+  60  AY919809.1                             0.25%    passed     98.67%
+  61  GU219115.1                            63.51%    passed     64.20%
+  62  KJ757341.1                             0.25%    passed     63.10%
+  63  GU219123.1                            63.57%    passed     69.37%
+  64  HQ870393.1                            48.31%    passed     60.45%
+  65  KT811439.1                            74.34%    passed     52.16%
+  66  MF197550.1                            24.37%    passed     76.28%
+  67  MT606011.1                             0.80%    passed     64.92%
+  68  MF197551.1                             0.74%    passed     63.08%
+  69  MT649884.1                            18.22%    passed     68.65%
+  70  JN832761.1                            41.23%    passed     91.04%
+  71  MK309361.1                             8.25%    passed     44.14%
+  72  FJ424512.1                             0.49%    passed     60.30%
+  73  MF197552.1                            34.40%    passed     93.04%
+  74  FJ153738.1                            31.88%    passed     51.76%
+  75  KX998730.1                            34.58%    passed     36.15%
+  76  AF022200_Noctiluca_scintillans         0.80%    passed     58.12%
+  77  AY642738.1                            16.25%    passed     81.71%
+  78  HQ219336.1                             1.29%    passed     68.71%
+  79  AY919736.1                             0.92%    passed     87.35%
+  80  AB721034.1                             0.92%    passed     85.11%
+  81  AB721061.1                             0.98%    passed     84.89%
+  82  LC109024.1                             0.92%    passed     80.97%
+  83  HQ219366.1                             0.80%    passed     97.66%
+  84  MK946242.1                            32.37%    passed     47.95%
+  85  AB902201.1                             2.03%    passed     29.37%
+  86  DQ244021.1                             3.20%    passed      8.42%
+  87  DQ244034.1                             3.75%    passed     49.82%
+  88  AB771865.1                             3.88%    passed     40.60%
+  89  GU296508.2                             1.05%    passed     39.05%
+  90  KY628810.1                             1.05%    passed     31.23%
+  91  MW528544.1                             0.43%    passed     51.03%
+  92  AB264776_Ichthyodinium_chabelardi      0.49%    passed     89.43%
+  93  EF100200.1                            30.58%    passed     56.26%
+  94  AB721041.1                             1.91%    passed     85.85%
+  95  EF100348.1                            16.49%    passed     22.56%
+  96  FJ410700.1                            52.06%    passed     70.77%
+  97  FN690351.1                            50.34%    passed      8.39%
+  98  KP685288.1                            31.63%    passed     78.86%
+  99  EU162621.1                             9.78%    passed     23.20%
+ 100  JF730760.1                             0.37%    passed     25.70%
+ 101  FJ592408.1                            34.22%    passed     46.43%
+ 102  EU162625.1                             1.29%    failed      0.04%
+ 103  EU162627.1                             5.17%    failed      0.06%
+ 104  AF133909.1                             2.03%    passed     19.89%
+ 105  KM878667.1                             1.11%    passed     15.40%
+ 106  KF359485.1                             3.75%    passed     16.86%
+ 107  KF359483.1                             3.75%    passed     92.30%
+ 108  KX519758.1                             2.58%    passed     26.74%
+ 109  KX519760.1                             2.65%    passed     27.26%
+ 110  KX519761.1                             1.85%    passed     22.24%
+ 111  MT299786.1                            22.03%    passed     86.83%
+ 112  MT299787.1                            27.20%    failed      4.56%
+ 113  MT299788.1                            27.20%    failed      4.56%
+ 114  AB112470.1                             3.75%    failed      0.47%
+ 115  GU296509.1                             3.63%    failed      0.65%
+ 116  AB451874.1                             3.75%    failed      2.32%
+ 117  EU878172.1                             3.45%    failed      0.30%
+WARNING: 11 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 14.70%  8 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KX513986.1 is identical to AF509333.1 but kept for subsequent analysis
+NOTE: MT299788.1 is identical to MT299787.1 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KX513992.1 (identical to AF509333.1) is ignored but added at the end
+NOTE: AY487831.1 (identical to AF509333.1) is ignored but added at the end
+Alignment was printed to Perkinsea18S.einsi.trimal.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Perkinsea18S.einsi.trimal.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.032 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+62 trees examined
+Threads: 1 / Time: 20.303 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55491
+Threads: 2 / Time: 11.939 sec / Speedup: 1.701 / Efficiency: 85% / LogL: -55491
+Threads: 3 / Time: 10.020 sec / Speedup: 2.026 / Efficiency: 68% / LogL: -55491
+Threads: 4 / Time: 8.738 sec / Speedup: 2.324 / Efficiency: 58% / LogL: -55491
+Threads: 5 / Time: 8.002 sec / Speedup: 2.537 / Efficiency: 51% / LogL: -55491
+Threads: 6 / Time: 7.988 sec / Speedup: 2.542 / Efficiency: 42% / LogL: -55491
+BEST NUMBER OF THREADS: 5
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -31657.203
+Optimal log-likelihood: -31656.411
+Rate parameters:  A-C: 1.04165  A-G: 2.82552  A-T: 1.68245  C-G: 0.61617  C-T: 4.85849  G-T: 1.00000
+Base frequencies:  A: 0.271  C: 0.193  G: 0.258  T: 0.278
+Proportion of invariable sites: 0.210
+Gamma shape alpha: 0.532
+Parameters optimization took 1 rounds (0.098 sec)
+Time for fast ML tree search: 0.692 seconds
+
+NOTE: ModelFinder requires 45 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 1625) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         36442.773    235 73355.546    73435.402    74622.963
+  2  GTR+F+I       34166.634    236 68805.269    68885.862    70078.079
+  3  GTR+F+G4      31707.849    236 63887.698    63968.292    65160.509
+  4  GTR+F+I+G4    31655.497    237 63784.994    63866.329    65063.197
+  5  GTR+F+R2      32115.950    237 64705.901    64787.236    65984.104
+  6  GTR+F+R3      31654.558    239 63787.115    63869.945    65076.105
+  7  GTR+F+R4      31551.416    241 63584.833    63669.174    64884.609
+  8  GTR+F+R5      31522.103    243 63530.207    63616.075    64840.770
+  9  GTR+F+R6      31522.038    245 63534.077    63621.488    64855.426
+ 21  SYM+R5        31598.160    240 63676.320    63759.904    64970.703
+ 34  TVM+F+R5      31582.489    242 63648.978    63734.081    64954.148
+ 47  TVMe+R5       31616.838    239 63711.676    63794.506    65000.666
+ 60  TIM3+F+R5     31581.256    241 63644.511    63728.853    64944.288
+ 73  TIM3e+R5      31671.035    238 63818.070    63900.151    65101.666
+ 86  TIM2+F+R5     31562.880    241 63607.760    63692.102    64907.537
+ 99  TIM2e+R5      31719.072    238 63914.145    63996.225    65197.741
+112  TIM+F+R5      31612.561    241 63707.122    63791.463    65006.898
+125  TIMe+R5       31780.136    238 64036.272    64118.352    65319.868
+138  TPM3u+F+R5    31641.195    240 63762.391    63845.975    65056.774
+151  TPM3+F+R5     31641.195    240 63762.391    63845.975    65056.774
+164  TPM2u+F+R5    31626.024    240 63732.049    63815.632    65026.432
+177  TPM2+F+R5     31626.023    240 63732.047    63815.631    65026.430
+190  K3Pu+F+R5     31675.183    240 63830.366    63913.950    65124.749
+203  K3P+R5        31797.977    237 64069.954    64151.289    65348.157
+216  TN+F+R5       31621.081    240 63722.161    63805.745    65016.544
+229  TNe+R5        31789.836    237 64053.672    64135.007    65331.875
+242  HKY+F+R5      31683.270    239 63844.539    63927.369    65133.529
+255  K2P+R5        31807.680    236 64087.360    64167.954    65360.170
+268  F81+F+R5      32603.663    238 65683.326    65765.407    66966.923
+281  JC+R5         32673.355    235 65816.710    65896.566    67084.127
+Akaike Information Criterion:           GTR+F+R5
+Corrected Akaike Information Criterion: GTR+F+R5
+Bayesian Information Criterion:         GTR+F+R5
+Best-fit model: GTR+F+R5 chosen according to BIC
+
+All model information printed to Perkinsea18S.einsi.trimal.fasta.model.gz
+CPU time for ModelFinder: 379.536 seconds (0h:6m:19s)
+Wall-clock time for ModelFinder: 103.717 seconds (0h:1m:43s)
+
+NOTE: 22 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -31522.103
+Optimal log-likelihood: -31521.969
+Rate parameters:  A-C: 1.03387  A-G: 2.92989  A-T: 1.74487  C-G: 0.60265  C-T: 4.91400  G-T: 1.00000
+Base frequencies:  A: 0.271  C: 0.193  G: 0.258  T: 0.278
+Site proportion and rates:  (0.535,0.069) (0.206,0.522) (0.125,1.717) (0.102,3.794) (0.032,7.805)
+Parameters optimization took 1 rounds (0.201 sec)
+Computing ML distances based on estimated model parameters... 0.492 sec
+Computing BIONJ tree...
+0.008 seconds
+Log-likelihood of BIONJ tree: -31810.194
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.210 second
+Computing log-likelihood of 98 initial trees ... 1.684 seconds
+Current best score: -31504.812
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -31407.088
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -31403.938
+BETTER TREE FOUND at iteration 6: -31403.934
+Iteration 10 / LogL: -31406.014 / Time: 0h:0m:9s
+Iteration 20 / LogL: -31440.634 / Time: 0h:0m:12s
+Finish initializing candidate tree set (18)
+Current best tree score: -31403.934 / CPU time: 12.215
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -31403.933
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -31402.937
+UPDATE BEST LOG-LIKELIHOOD: -31402.933
+Iteration 30 / LogL: -31403.877 / Time: 0h:0m:16s (0h:0m:51s left)
+UPDATE BEST LOG-LIKELIHOOD: -31402.924
+BETTER TREE FOUND at iteration 40: -31402.919
+Iteration 40 / LogL: -31402.919 / Time: 0h:0m:19s (0h:0m:50s left)
+Iteration 50 / LogL: -31402.963 / Time: 0h:0m:23s (0h:0m:42s left)
+BETTER TREE FOUND at iteration 52: -31402.917
+BETTER TREE FOUND at iteration 53: -31402.914
+Iteration 60 / LogL: -31403.098 / Time: 0h:0m:26s (0h:0m:42s left)
+Iteration 70 / LogL: -31413.957 / Time: 0h:0m:30s (0h:0m:36s left)
+Iteration 80 / LogL: -31402.921 / Time: 0h:0m:34s (0h:0m:31s left)
+Iteration 90 / LogL: -31407.917 / Time: 0h:0m:38s (0h:0m:27s left)
+Iteration 100 / LogL: -31402.954 / Time: 0h:0m:42s (0h:0m:22s left)
+Iteration 110 / LogL: -31402.918 / Time: 0h:0m:46s (0h:0m:18s left)
+Iteration 120 / LogL: -31402.923 / Time: 0h:0m:49s (0h:0m:13s left)
+Iteration 130 / LogL: -31526.139 / Time: 0h:0m:53s (0h:0m:9s left)
+Iteration 140 / LogL: -31403.895 / Time: 0h:0m:57s (0h:0m:5s left)
+Iteration 150 / LogL: -31402.917 / Time: 0h:1m:1s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 154 ITERATIONS / Time: 0h:1m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31402.914
+2. Current log-likelihood: -31402.853
+3. Current log-likelihood: -31402.800
+4. Current log-likelihood: -31402.752
+5. Current log-likelihood: -31402.707
+6. Current log-likelihood: -31402.668
+7. Current log-likelihood: -31402.631
+8. Current log-likelihood: -31402.598
+9. Current log-likelihood: -31402.578
+10. Current log-likelihood: -31402.549
+11. Current log-likelihood: -31402.534
+12. Current log-likelihood: -31402.519
+13. Current log-likelihood: -31402.505
+14. Current log-likelihood: -31402.491
+15. Current log-likelihood: -31402.480
+Optimal log-likelihood: -31402.464
+Rate parameters:  A-C: 1.04468  A-G: 2.96748  A-T: 1.77157  C-G: 0.60126  C-T: 4.99857  G-T: 1.00000
+Base frequencies:  A: 0.271  C: 0.193  G: 0.258  T: 0.278
+Site proportion and rates:  (0.521,0.063) (0.219,0.500) (0.130,1.737) (0.101,3.901) (0.030,7.967)
+Parameters optimization took 15 rounds (2.842 sec)
+BEST SCORE FOUND : -31402.464
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.770 sec.
+Total tree length: 6.922
+
+Total number of iterations: 154
+CPU time used for tree search: 296.664 sec (0h:4m:56s)
+Wall-clock time used for tree search: 62.372 sec (0h:1m:2s)
+Total CPU time used: 316.736 sec (0h:5m:16s)
+Total wall-clock time used: 66.430 sec (0h:1m:6s)
+
+Analysis results written to: 
+  IQ-TREE report:                Perkinsea18S.einsi.trimal.fasta.iqtree
+  Maximum-likelihood tree:       Perkinsea18S.einsi.trimal.fasta.treefile
+  Likelihood distances:          Perkinsea18S.einsi.trimal.fasta.mldist
+  Screen log file:               Perkinsea18S.einsi.trimal.fasta.log
+
+Date and Time: Sat May  8 10:32:47 2021

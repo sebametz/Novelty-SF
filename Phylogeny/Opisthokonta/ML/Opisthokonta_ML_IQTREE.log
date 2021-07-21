@@ -1,0 +1,339 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    r2i2n1 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s Holozoa.einsi.trimal.fasta -m MFP -alrt 1000 -T AUTO -ntmax 20
+Seed:    323439 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri May 14 09:43:19 2021
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file Holozoa.einsi.trimal.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 125 sequences with 1653 columns, 1241 distinct patterns
+777 parsimony-informative, 278 singleton sites, 598 constant sites
+                                                            Gap/Ambiguity  Composition  p-value
+   1  KT757460_Salpingoeca_punica                                   1.03%    passed     98.70%
+   2  EU011929_FRESCHO5                                             0.97%    passed     98.40%
+   3  L10824_1_ChoanoflagellateH_Diaphanoeca_grandis                0.30%    passed     92.26%
+   4  EU446337_1_ChoanoflagellateH_Ukn                              7.92%    passed     97.36%
+   5  GU825407_1_ChoanoflagellateE_Ukn                             36.12%    passed     20.27%
+   6  AY426845_2_ChoanoflagellateE_Ukn                              0.00%    passed     89.23%
+   7  GU825182_1_ChoanoflagellateH_Ukn                             31.03%    passed     18.75%
+   8  HQ869250_1_ChoanoflagellateH_Ukn                             47.67%    passed     24.96%
+   9  EU446341_1_ChoanoflagellateI_Ukn                              8.11%    passed     97.03%
+  10  KT757444_Didymoeca_costata                                    0.36%    passed     96.98%
+  11  EU011927_1_ChoanoflagellateI_Stephanoeca_diplocostata         0.18%    passed     98.14%
+  12  AF349564_Capsaspora_owczarzaki                                9.68%    passed     82.34%
+  13  HM227427_1_Ichthyophonida_Ukn                                70.60%    failed      3.07%
+  14  HM227461_1_MAIP1_Ukn                                         70.72%    passed     18.19%
+  15  Y16260_Sphaerophorma_arctica                                 10.16%    passed     52.15%
+  16  EU124915_Creolimax_fragantissima                              9.74%    passed     50.59%
+  17  AF192386_1_Pseudoperkinsus_tapetis                            0.42%    passed     53.95%
+  18  Y19155_Amoebidium_parasiticum                                 0.00%    passed     93.70%
+  19  FJ887961_1_Ichthyophonus_sp                                   0.00%    passed     83.55%
+  20  U43712_Ichthyophonus_hoferi                                   1.51%    passed     62.40%
+  21  AY336700_1_Eccrinidus_flexilis                                1.88%    passed     57.59%
+  22  AJ130859_1_Ichthyophonida_sp_LKM51                            5.93%    passed     67.75%
+  23  AF070445_1_Anurofeca_richardsi                                0.18%    passed     97.56%
+  24  DQ536491_Blyttiomyces_helicus                                12.95%    passed     80.24%
+  25  NG017175_Rhizophlyctis_rosea                                 11.80%    passed     78.95%
+  26  AY546684_Spizellomyces_punctatus                              9.44%    passed     70.52%
+  27  M62705_Neocallimastix_joyonii                                22.38%    passed     18.29%
+  28  EF014370_1_Neocallimastix_frontalis                          11.31%    passed     43.13%
+  29  NG017188_Mortierella_verticillata                             9.86%    passed     68.12%
+  30  AY349032_Chytridium_confervae                                50.57%    passed      9.89%
+  31  AB586078_Chytriomyces_hyalinus                                0.12%    passed     93.04%
+  32  GU979538_Unc_AMDEuk14                                        59.65%    passed     76.06%
+  33  AY364635_Nuclearia_pattersoni                                 9.74%    passed     53.05%
+  34  AF484687_Nuclearia_simplex                                   12.83%    passed     66.97%
+  35  AF349566_Nuclearia_simplex                                    9.44%    passed     78.71%
+  36  AF484686_Nuclearia_moebiusi                                   9.50%    passed     79.01%
+  37  AB433328_Nuclearia_thermophila                               10.22%    passed     84.27%
+  38  JN825683_Unc_AQ1w                                            51.42%    passed     10.67%
+  39  EF219013_MAFO_18BR2                                          11.98%    passed     95.10%
+  40  MF190551_Syssomonas_multiformis                               0.12%    passed     86.50%
+  41  AF533949_Dermocystidium_percae                                9.44%    passed     49.57%
+  42  AF158369_Rhinosporidium_seeberi                              11.86%    passed     42.40%
+  43  KM213082_Chromosphaera_perkinsii                              1.63%    passed     54.35%
+  44  AY267345_1_Dermocystida_Sphaerothecum_destruens               0.79%    passed     78.35%
+  45  JN054684_1_Dermocystida_Ukn                                  11.92%    passed     89.53%
+  46  MF190552_Pigoraptor_vietnamica                                0.06%    passed     98.42%
+  47  AY426842_2_Lagenoeca-ENV_Ukn                                  0.00%    passed     94.98%
+  48  AF100940_Monosiga_brevicollis                                 9.56%    passed     88.33%
+  49  EF024885_1_CladeL_Ukn                                         0.00%    passed     95.76%
+  50  EF196742_1_CLadeL_Ukn                                        52.33%    passed     99.28%
+  51  EF196791_1_CLadeL_Ukn                                        43.38%    passed     95.76%
+  52  AF084230_Mylnosiga_fluctuans                                  0.00%    passed     98.61%
+  53  JX967274_Amoeboaphelidium_pr                                  9.92%    passed     77.92%
+  54  NG017174_Rozella_allomycis                                    0.60%    passed     86.07%
+  55  FJ976649_Unc_PRS2                                            23.96%    passed     53.58%
+  56  DQ244011_1_Unc_PFA12AU2004                                    9.62%    passed     49.93%
+  57  AM114814_Unc_WIM27                                            9.86%    passed     48.94%
+  58  AY426848_2_ChoanoflagellateD_Ukn                              0.06%    passed     95.49%
+  59  JQ226502_1_ChoanoflagellateD_Ukn                              6.59%    passed     98.70%
+  60  JN693379_1_ChoanoflagellateD_Ukn                             47.67%    passed     42.96%
+  61  EF014364_Allomyces_macrogynus                                 9.50%    passed     98.67%
+  62  AY635842_Blastocladiella_emersonii                            9.56%    passed     95.28%
+  63  L42528_Corallochytrium_limacisporum                           0.06%    passed     96.17%
+  64  EF432531_1_ChoanoflagellateG_Helgoeca_nana                    0.18%    passed     91.15%
+  65  EF523337_1_ChoanoflagellateG_Savillea_micropora              62.79%    passed     77.42%
+  66  KT757415_Acanthoeca_spectabilis                               0.06%    passed     98.35%
+  67  EF523339_1_ChoanoflagellateG_Acanthocorbis_unguiculata       62.79%    passed     77.31%
+  68  JN090872_1_ChoanoflagellateG_Ukn                              0.06%    passed     98.35%
+  69  GU385597_1_MAOP2                                              1.33%    passed     57.64%
+  70  DQ995807_1_LagenoecaENV                                      19.06%    passed     80.90%
+  71  HQ026774_1_Salpingoeca_tuba                                   2.42%    passed     83.90%
+  72  KT757494_Salpingoeca_kvevrii                                  0.18%    passed     75.18%
+  73  KT757514_Salpingoeca_urceolata                                0.24%    passed     56.07%
+  74  EF539151_1_MAOP1_Ukn                                         53.66%    passed     20.28%
+  75  EF539152_1_MAOP1                                             52.33%    passed     20.46%
+  76  EF526821_1_MAOP2_Ukn                                         19.90%    passed     92.48%
+  77  AY082991_Parvularia_RT5iin16                                  9.74%    passed     89.19%
+  78  AY082985_Parvularia_RT5iin14                                  9.74%    passed     97.45%
+  79  KY113120_Parvularia_atlantis                                  2.18%    passed     81.30%
+  80  DQ322630_Glomus_intraradices                                  0.00%    passed     97.87%
+  81  KT757470_Salpingoeca_calixa                                   5.93%    passed     54.06%
+  82  HM749958_1_Craspedida_Ukn                                    14.28%    passed     89.75%
+  83  KT757426_Hartaetosiga_gracilis                                0.48%    passed     95.03%
+  84  KT757499_Stagondoeca_pyriformis                               3.87%    passed     79.55%
+  85  AF293678_Pleurobrachia_pileus                                 0.12%    passed     29.76%
+  86  AF293700_Mnemiopsis_leidyi                                    0.18%    passed     29.59%
+  87  AF372736_1_FRESHCO2                                          25.11%    passed     50.44%
+  88  KT757492_Salpingoeca_oahu                                     2.60%    passed     90.11%
+  89  AF254382_Nematostella_vectensis                               1.94%    passed     61.98%
+  90  EU190849_Anemonia_viridis                                     0.36%    passed     75.54%
+  91  HQ392522_Hydra_magnipapillata                                 0.12%    passed     49.10%
+  92  Z22783_Trichoplax_sp                                          0.48%    passed     99.91%
+  93  AY789753_Clytia_hemisphaerica                                 3.69%    passed      9.10%
+  94  GU810144_1_Ichthyosporea_Pirum_gemmata                        1.33%    passed     37.29%
+  95  GU825216_1_Ichthyophonida_Ukn                                24.56%    passed     97.17%
+  96  GU810145_1_Ichthyosporea_Abeoforma                            1.69%    passed     30.63%
+  97  HM857746_1_MAIP1_Ukn                                         69.87%    failed      0.60%
+  98  X16077_Arabidopsis_thaliana                                   0.12%    failed      0.34%
+  99  AY342318_Archaeplastida_Chlorobionta_Marchantia_polymorpha    0.00%    failed      1.35%
+ 100  GQ402481_1_MAIP1_Ukn                                         69.69%    passed      9.51%
+ 101  HM227512_1_MAIP1_Ukn                                         70.24%    passed      7.47%
+ 102  EU144001_1_FRESHIP1_Ukn                                      55.41%    passed     72.20%
+ 103  AY336701_1_Enterobryus_sp                                     1.69%    passed     61.11%
+ 104  EU860494_1_FRESCHO4                                          70.60%    passed     22.00%
+ 105  AH009052_2_Batrachochytrium_dendrobatidis                    45.31%    passed      5.08%
+ 106  JQ434475_Cryptophyta_Goniomonas_avonlea                       0.18%    passed     44.86%
+ 107  AY772000_1_Dermocystida_Amphibiothecum_penneri                9.01%    passed     50.82%
+ 108  GU232541_1_Dermocystida_Dermocystida_sp                      49.12%    passed     40.24%
+ 109  EU702422_Oscarella_carmela                                    0.97%    failed      0.21%
+ 110  KT757487_Salpingoeca_helianthica                              0.91%    passed     99.86%
+ 111  JQ223245_1_ChoanoDivergent_Ukn                                5.32%    passed     75.16%
+ 112  KF651083_Alveolata_Colponema_vietnamica                       0.18%    passed     97.72%
+ 113  AF271998_Ministeria_vibrans                                   9.74%    passed     42.44%
+ 114  M55625_Cryptococcus_neoformans                                2.00%    passed      5.65%
+ 115  FJ610444_Neurospora_crassa                                    9.74%    failed      0.24%
+ 116  FJ544419_Amoebozoa_Ceratiomyxella_tahitiensis                 0.00%    passed     87.71%
+ 117  DQ104587_FRESCHO1_Ukn                                        32.67%    passed     20.81%
+ 118  FJ848455_1_FRESHCO3                                          10.10%    passed     87.73%
+ 119  FJ848499_1_FRESHCO3                                           9.26%    passed     49.90%
+ 120  JX507298_Amoeboaphelidium_protococcarum                       9.74%    passed     82.09%
+ 121  U73225_Stramenopila_Mallomonas_adamas                         0.67%    passed     93.74%
+ 122  FJ816018_Fonticula_alba                                      10.41%    failed      1.30%
+ 123  DQ244006_1_FRESHIP1_Ukn                                       4.60%    failed      0.01%
+ 124  KT757430_Codosiga_hollandica                                  1.09%    passed      6.25%
+ 125  JF706239_Codosiga_sp_M5                                      12.46%    failed      1.88%
+WARNING: 15 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                        14.65%  9 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.069 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+54 trees examined
+Threads: 1 / Time: 20.273 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -49624
+Threads: 2 / Time: 17.798 sec / Speedup: 1.139 / Efficiency: 57% / LogL: -49624
+Threads: 3 / Time: 14.358 sec / Speedup: 1.412 / Efficiency: 47% / LogL: -49624
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -36863.075
+2. Current log-likelihood: -36861.588
+Optimal log-likelihood: -36860.936
+Rate parameters:  A-C: 0.91870  A-G: 2.34649  A-T: 0.99029  C-G: 1.02396  C-T: 4.35886  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.186  G: 0.258  T: 0.277
+Proportion of invariable sites: 0.270
+Gamma shape alpha: 0.586
+Parameters optimization took 2 rounds (0.403 sec)
+Time for fast ML tree search: 2.214 seconds
+
+NOTE: ModelFinder requires 50 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 1653) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         43057.952    255 86625.904    86719.362    88005.543
+  2  GTR+F+I       40371.029    256 81254.058    81348.316    82639.107
+  3  GTR+F+G4      36984.543    256 74481.085    74575.343    75866.134
+  4  GTR+F+I+G4    36860.487    257 74234.973    74330.035    75625.432
+  5  GTR+F+R2      37562.278    257 75638.556    75733.619    77029.016
+  6  GTR+F+R3      36872.703    259 74263.407    74360.090    75664.687
+  7  GTR+F+R4      36666.068    261 73854.136    73952.456    75266.236
+  8  GTR+F+R5      36618.457    263 73762.914    73862.888    75185.835
+  9  GTR+F+R6      36608.262    265 73746.524    73848.168    75180.266
+ 10  GTR+F+R7      36605.938    267 73745.876    73849.206    75190.439
+ 21  SYM+R5        36636.883    260 73793.766    73891.266    75200.457
+ 22  SYM+R6        36621.369    262 73766.738    73865.883    75184.249
+ 34  TVM+F+R5      36702.669    262 73929.339    74028.484    75346.850
+ 35  TVM+F+R6      36695.226    264 73918.453    74019.260    75346.785
+ 47  TVMe+R5       36653.172    259 73824.343    73921.027    75225.623
+ 48  TVMe+R6       36645.158    261 73812.317    73910.637    75224.417
+ 60  TIM3+F+R5     36618.738    261 73759.477    73857.797    75171.577
+ 61  TIM3+F+R6     36608.438    263 73742.876    73842.850    75165.797
+ 73  TIM3e+R5      36639.698    258 73795.396    73891.267    75191.265
+ 74  TIM3e+R6      36624.653    260 73769.305    73866.805    75175.996
+ 86  TIM2+F+R5     36619.334    261 73760.668    73858.989    75172.769
+ 87  TIM2+F+R6     36609.013    263 73744.026    73844.000    75166.947
+ 99  TIM2e+R5      36678.167    258 73872.334    73968.205    75268.204
+100  TIM2e+R6      36667.947    260 73855.893    73953.393    75262.583
+112  TIM+F+R5      36618.809    261 73759.618    73857.938    75171.718
+113  TIM+F+R6      36608.550    263 73743.100    73843.074    75166.021
+125  TIMe+R5       36679.616    258 73875.231    73971.102    75271.101
+126  TIMe+R6       36670.144    260 73860.289    73957.789    75266.979
+138  TPM3u+F+R5    36702.969    260 73925.938    74023.438    75332.628
+139  TPM3u+F+R6    36695.528    262 73915.055    74014.201    75332.566
+151  TPM3+F+R5     36702.969    260 73925.938    74023.438    75332.628
+152  TPM3+F+R6     36695.528    262 73915.055    74014.201    75332.566
+164  TPM2u+F+R5    36704.288    260 73928.576    74026.076    75335.266
+165  TPM2u+F+R6    36696.544    262 73917.089    74016.234    75334.600
+177  TPM2+F+R5     36704.288    260 73928.576    74026.076    75335.266
+178  TPM2+F+R6     36696.544    262 73917.089    74016.234    75334.600
+190  K3Pu+F+R5     36703.875    260 73927.750    74025.250    75334.440
+191  K3Pu+F+R6     36696.144    262 73916.288    74015.433    75333.798
+203  K3P+R5        36694.694    257 73903.388    73998.450    75293.847
+204  K3P+R6        36687.426    259 73892.852    73989.536    75294.132
+216  TN+F+R5       36619.332    260 73758.664    73856.164    75165.354
+217  TN+F+R6       36608.983    262 73741.967    73841.112    75159.478
+229  TNe+R5        36680.568    257 73875.136    73970.198    75265.595
+230  TNe+R6        36670.968    259 73859.936    73956.619    75261.216
+242  HKY+F+R5      36704.221    259 73926.442    74023.125    75327.722
+243  HKY+F+R6      36696.480    261 73914.959    74013.280    75327.060
+255  K2P+R5        36695.579    256 73903.157    73997.415    75288.206
+256  K2P+R6        36688.319    258 73892.639    73988.510    75288.508
+268  F81+F+R5      37768.874    258 76053.749    76149.619    77449.618
+269  F81+F+R6      37761.732    260 76043.464    76140.964    77450.154
+281  JC+R5         37689.641    255 75889.281    75982.739    77268.920
+282  JC+R6         37682.815    257 75879.630    75974.692    77270.089
+Akaike Information Criterion:           TN+F+R6
+Corrected Akaike Information Criterion: TN+F+R6
+Bayesian Information Criterion:         TN+F+R6
+Best-fit model: TN+F+R6 chosen according to BIC
+
+All model information printed to Holozoa.einsi.trimal.fasta.model.gz
+CPU time for ModelFinder: 636.664 seconds (0h:10m:36s)
+Wall-clock time for ModelFinder: 322.430 seconds (0h:5m:22s)
+
+NOTE: 30 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -36608.983
+Optimal log-likelihood: -36608.883
+Rate parameters:  A-C: 1.00000  A-G: 2.45609  A-T: 1.00000  C-G: 1.00000  C-T: 4.50735  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.186  G: 0.258  T: 0.277
+Site proportion and rates:  (0.508,0.057) (0.212,0.374) (0.095,1.110) (0.101,2.364) (0.054,4.559) (0.031,9.725)
+Parameters optimization took 1 rounds (0.850 sec)
+Computing ML distances based on estimated model parameters... 0.792 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.016 seconds
+Log-likelihood of BIONJ tree: -37681.206
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.041 second
+Computing log-likelihood of 98 initial trees ... 4.108 seconds
+Current best score: -36608.883
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -36608.771
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -36552.953
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -36536.555
+Iteration 10 / LogL: -36547.439 / Time: 0h:0m:21s
+Iteration 20 / LogL: -36563.042 / Time: 0h:0m:28s
+Finish initializing candidate tree set (20)
+Current best tree score: -36536.555 / CPU time: 25.884
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -36540.343 / Time: 0h:0m:35s (0h:1m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -36523.595
+Iteration 40 / LogL: -36535.444 / Time: 0h:0m:45s (0h:1m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -36521.242
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -36516.868
+Iteration 50 / LogL: -36516.868 / Time: 0h:0m:58s (0h:1m:58s left)
+Iteration 60 / LogL: -36519.000 / Time: 0h:1m:11s (0h:1m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -36516.627
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -36515.600
+Iteration 70 / LogL: -36532.937 / Time: 0h:1m:21s (0h:1m:49s left)
+Iteration 80 / LogL: -36527.324 / Time: 0h:1m:30s (0h:1m:33s left)
+Iteration 90 / LogL: -36531.007 / Time: 0h:1m:38s (0h:1m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -36514.391
+Iteration 100 / LogL: -36514.479 / Time: 0h:1m:47s (0h:1m:46s left)
+Iteration 110 / LogL: -36522.727 / Time: 0h:1m:56s (0h:1m:33s left)
+Iteration 120 / LogL: -36526.316 / Time: 0h:2m:4s (0h:1m:21s left)
+Iteration 130 / LogL: -36523.929 / Time: 0h:2m:13s (0h:1m:10s left)
+Iteration 140 / LogL: -36514.642 / Time: 0h:2m:21s (0h:0m:59s left)
+Iteration 150 / LogL: -36515.524 / Time: 0h:2m:29s (0h:0m:48s left)
+Iteration 160 / LogL: -36518.547 / Time: 0h:2m:38s (0h:0m:37s left)
+Iteration 170 / LogL: -36556.793 / Time: 0h:2m:47s (0h:0m:27s left)
+Iteration 180 / LogL: -36514.443 / Time: 0h:2m:56s (0h:0m:17s left)
+Iteration 190 / LogL: -36515.590 / Time: 0h:3m:5s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 199 ITERATIONS / Time: 0h:3m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -36514.391
+2. Current log-likelihood: -36514.361
+3. Current log-likelihood: -36514.338
+4. Current log-likelihood: -36514.320
+5. Current log-likelihood: -36514.303
+6. Current log-likelihood: -36514.288
+7. Current log-likelihood: -36514.274
+8. Current log-likelihood: -36514.262
+9. Current log-likelihood: -36514.250
+10. Current log-likelihood: -36514.238
+11. Current log-likelihood: -36514.227
+12. Current log-likelihood: -36514.217
+13. Current log-likelihood: -36514.206
+Optimal log-likelihood: -36514.195
+Rate parameters:  A-C: 1.00000  A-G: 2.44205  A-T: 1.00000  C-G: 1.00000  C-T: 4.56921  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.186  G: 0.258  T: 0.277
+Site proportion and rates:  (0.502,0.053) (0.230,0.383) (0.102,1.282) (0.092,2.625) (0.045,4.930) (0.029,9.877)
+Parameters optimization took 13 rounds (6.034 sec)
+BEST SCORE FOUND : -36514.195
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+2.099 sec.
+Total tree length: 7.824
+
+Total number of iterations: 199
+CPU time used for tree search: 373.944 sec (0h:6m:13s)
+Wall-clock time used for tree search: 190.585 sec (0h:3m:10s)
+Total CPU time used: 395.100 sec (0h:6m:35s)
+Total wall-clock time used: 201.312 sec (0h:3m:21s)
+
+Analysis results written to: 
+  IQ-TREE report:                Holozoa.einsi.trimal.fasta.iqtree
+  Maximum-likelihood tree:       Holozoa.einsi.trimal.fasta.treefile
+  Likelihood distances:          Holozoa.einsi.trimal.fasta.mldist
+  Screen log file:               Holozoa.einsi.trimal.fasta.log
+
+Date and Time: Fri May 14 09:52:03 2021

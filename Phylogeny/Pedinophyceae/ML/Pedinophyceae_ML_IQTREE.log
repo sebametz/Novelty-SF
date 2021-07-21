@@ -1,0 +1,220 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    r1i4n14 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s alignment.einsi.trimal_Pedinophyceae.fasta -m MFP -alrt 1000 -T AUTO -ntmax 20
+Seed:    463278 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat May 29 13:55:12 2021
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file alignment.einsi.trimal_Pedinophyceae.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 53 sequences with 1767 columns, 744 distinct patterns
+531 parsimony-informative, 207 singleton sites, 1029 constant sites
+                                                              Gap/Ambiguity  Composition  p-value
+   1  U41177_Protosiphon_botryoides_1767_bp                           1.47%    passed     97.96%
+   2  DQ009760_Chlorosarcina_stigmatica_1767_bp                       4.41%    passed     48.01%
+   3  U63099_Bracteacoccus_giganteus_1767_bp                          3.74%    passed     99.76%
+   4  AB437244_Micractinium_reisseri_1767_bp                          0.11%    passed     70.04%
+   5  HE610126_Koliella_longiseta_1767_bp                             0.06%    passed     97.63%
+   6  X63520_Chlorella_ellipsoidea_1767_bp                            0.06%    passed     98.35%
+   7  Z28973_P._terrestre_1767_bp                                     0.11%    passed     96.05%
+   8  Z68700_T._jamesii_1767_bp                                       0.40%    passed     91.79%
+   9  Z21551_T._impressa_1767_bp                                      0.23%    passed     97.52%
+  10  Z68705_T._arboricola_1767_bp                                    1.98%    passed     95.26%
+  11  AB162910_Chlorella_vulgaris_1767_bp                             0.11%    passed     81.04%
+  12  AB206549_Chlorella_variabilis_1767_bp                           0.11%    passed     72.40%
+  13  U83125_Chaetopeltis_orbicularis_1767_bp                         1.58%    passed     99.35%
+  14  HE610130_Tetraselmis_cordiformis_1767_bp                        0.06%    passed     91.10%
+  15  HE610131_Tetraselmis_marina_1767_bp                             0.11%    passed     69.14%
+  16  X68484_S._dubia_1767_bp                                         0.85%    passed     46.85%
+  17  X70802_T._striata_1767_bp                                       0.06%    passed     73.73%
+  18  HE610132_Pedinomonas_minor_1767_bp                              0.51%    passed     99.90%
+  19  JN592588_Pedinomonas_minor_1767_bp                              4.70%    passed     99.71%
+  20  JN592591_Pedinomonas_sp._1767_bp                                7.19%    passed     98.61%
+  21  HE610134_Pedinomonas_tuberculata_1767_bp                        0.51%    passed     95.90%
+  22  JN592589_Pedinomonas_tuberculata_1767_bp                        4.70%    passed     91.81%
+  23  HE610135_Pedinomonas_sp._1767_bp                                0.62%    passed     80.97%
+  24  HE610133_Pedinomonas_sp._1767_bp                                0.85%    passed     63.13%
+  25  AB049416_Desmochloris_halophila_1767_bp                         1.64%    passed     99.69%
+  26  FN562430_Acrosiphonia_sp._1767_bp                               0.45%    passed     95.12%
+  27  HE610120_Oltmannsiellopsis_sp._1767_bp                          0.40%    passed     93.07%
+  28  FN562433_Nephroselmis_astigmatica_1767_bp                       0.11%    passed     85.87%
+  29  X75565_Nephroselmis_pyriformis_1767_bp                          0.51%    passed     97.29%
+  30  FN562436_Nephroselmis_olivacea_1767_bp                          0.11%    passed     89.93%
+  31  AB017123_Pyramimonas_propulsa_class_Pyramimonadales_1767_bp     0.96%    passed     66.40%
+  32  FN562441_Pyramimonas_tetrarhynchus_1767_bp                      0.06%    passed     73.95%
+  33  AB052289_Pyramimonas_aurea_class_Pyramimonadales_1767_bp        0.96%    passed     82.97%
+  34  FN562442_Pyramimonas_olivacea_1767_bp                           0.06%    passed     66.88%
+  35  AJ404886_Pyramimonas_australis_class_Pyramimonadales_1767_bp    2.94%    passed     71.06%
+  36  FN562443_Pyramimonas_parkeae_1767_bp                            0.11%    passed     78.35%
+  37  AJ010407_Pterosperma_cristatum_class_Pyramimonadales_1767_bp    1.25%    passed     81.61%
+  38  FN562438_Cymbomonas_tetramitiformis_1767_bp                     0.06%    passed     89.34%
+  39  FN562437_Prasinoderma_coloniale_1767_bp                         0.74%    passed     88.16%
+  40  HE610136_Marsupiomonas_pelliculata_1767_bp                      1.41%    passed     28.17%
+  41  JN592593_Marsupiomonas_pelliculata_1767_bp                      5.89%    passed     15.46%
+  42  JN592592_Marsupiomonas_sp._1767_bp                             11.88%    passed      9.64%
+  43  KR822604_Pedinomonas_noctilucae_1767_bp                         2.66%    failed      2.10%
+  44  KR822615_Pedinomonas_noctilucae_1767_bp                         2.66%    failed      2.49%
+  45  MK030604_Uncultured_Pedinophyceae_1767_bp                       1.58%    passed     72.51%
+  46  AF203401_Prasinococcus_sp._1767_bp                              1.47%    passed     47.29%
+  47  X91264_P._provasolii_1767_bp                                    0.45%    passed     39.52%
+  48  FN562432_Ignatius_tetrasporus_1767_bp                           0.45%    passed     44.35%
+  49  U70786_Chlamydomonas_moewusii_1767_bp                           4.13%    passed     99.38%
+  50  U73469_Ankyra_judayi_1767_bp                                    4.64%    passed     99.24%
+  51  AF508277_Goniomonas_pacifica_outgroup_1767_bp                   2.83%    passed     25.78%
+  52  U53128_Rhodomonas_abbreviata_outgroup_1767_bp                   1.98%    failed      1.13%
+  53  L28811_Chilomonas_paramecium_outgroup_1767_bp                   2.15%    passed     62.28%
+****  TOTAL                                                           1.68%  3 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+233 trees examined
+Threads: 1 / Time: 20.058 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -24145
+Threads: 2 / Time: 11.403 sec / Speedup: 1.759 / Efficiency: 88% / LogL: -24145
+Threads: 3 / Time: 9.193 sec / Speedup: 2.182 / Efficiency: 73% / LogL: -24145
+Threads: 4 / Time: 7.518 sec / Speedup: 2.668 / Efficiency: 67% / LogL: -24145
+Threads: 5 / Time: 7.481 sec / Speedup: 2.681 / Efficiency: 54% / LogL: -24145
+Threads: 6 / Time: 8.069 sec / Speedup: 2.486 / Efficiency: 41% / LogL: -24145
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -16643.612
+2. Current log-likelihood: -16642.585
+Optimal log-likelihood: -16641.834
+Rate parameters:  A-C: 0.82969  A-G: 1.95171  A-T: 0.87756  C-G: 1.00761  C-T: 3.83052  G-T: 1.00000
+Base frequencies:  A: 0.252  C: 0.211  G: 0.275  T: 0.261
+Proportion of invariable sites: 0.353
+Gamma shape alpha: 0.447
+Parameters optimization took 2 rounds (0.042 sec)
+Time for fast ML tree search: 0.197 seconds
+
+NOTE: ModelFinder requires 12 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 1767) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         18901.228    111 38024.456    38039.480    38632.408
+  2  GTR+F+I       17315.336    112 34854.671    34869.975    35468.100
+  3  GTR+F+G4      16708.478    112 33640.955    33656.259    34254.383
+  4  GTR+F+I+G4    16639.694    113 33505.389    33520.975    34124.294
+  5  GTR+F+R2      16804.535    113 33835.070    33850.656    34453.976
+  6  GTR+F+R3      16609.439    115 33448.878    33465.038    34078.737
+  7  GTR+F+R4      16568.755    117 33371.509    33388.254    34012.323
+  8  GTR+F+R5      16568.658    119 33375.316    33392.657    34027.084
+ 20  SYM+R4        16577.011    114 33382.023    33397.894    34006.405
+ 33  TVM+F+R4      16611.318    116 33454.637    33471.088    34089.973
+ 46  TVMe+R4       16601.246    113 33428.492    33444.078    34047.397
+ 59  TIM3+F+R4     16569.401    115 33368.802    33384.962    33998.662
+ 72  TIM3e+R4      16579.623    112 33383.246    33398.549    33996.674
+ 85  TIM2+F+R4     16568.298    115 33366.597    33382.757    33996.456
+ 98  TIM2e+R4      16582.004    112 33388.007    33403.311    34001.436
+111  TIM+F+R4      16569.227    115 33368.453    33384.613    33998.313
+124  TIMe+R4       16584.880    112 33393.761    33409.064    34007.189
+137  TPM3u+F+R4    16612.104    114 33452.207    33468.079    34076.590
+150  TPM3+F+R4     16612.104    114 33452.207    33468.079    34076.590
+163  TPM2u+F+R4    16611.552    114 33451.104    33466.975    34075.486
+176  TPM2+F+R4     16611.552    114 33451.104    33466.975    34075.486
+189  K3Pu+F+R4     16612.236    114 33452.472    33468.343    34076.854
+202  K3P+R4        16608.459    111 33438.917    33453.941    34046.869
+215  TN+F+R4       16569.247    114 33366.494    33382.366    33990.876
+228  TNe+R4        16584.878    111 33391.757    33406.781    33999.708
+241  HKY+F+R4      16612.296    113 33450.592    33466.178    34069.497
+254  K2P+R4        16608.471    110 33436.941    33451.688    34039.416
+267  F81+F+R4      16984.962    112 34193.924    34209.227    34807.352
+280  JC+R4         16967.448    109 34152.895    34167.367    34749.893
+Akaike Information Criterion:           TN+F+R4
+Corrected Akaike Information Criterion: TN+F+R4
+Bayesian Information Criterion:         TN+F+R4
+Best-fit model: TN+F+R4 chosen according to BIC
+
+All model information printed to alignment.einsi.trimal_Pedinophyceae.fasta.model.gz
+CPU time for ModelFinder: 225.500 seconds (0h:3m:45s)
+Wall-clock time for ModelFinder: 73.849 seconds (0h:1m:13s)
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -16569.247
+Optimal log-likelihood: -16569.192
+Rate parameters:  A-C: 1.00000  A-G: 2.15595  A-T: 1.00000  C-G: 1.00000  C-T: 4.23013  G-T: 1.00000
+Base frequencies:  A: 0.252  C: 0.211  G: 0.275  T: 0.261
+Site proportion and rates:  (0.659,0.072) (0.210,1.070) (0.108,4.176) (0.023,12.164)
+Parameters optimization took 1 rounds (0.037 sec)
+Computing ML distances based on estimated model parameters... 0.080 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -16616.682
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.889 second
+Computing log-likelihood of 98 initial trees ... 0.432 seconds
+Current best score: -16569.192
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -16561.850
+Iteration 10 / LogL: -16562.067 / Time: 0h:0m:1s
+Iteration 20 / LogL: -16569.436 / Time: 0h:0m:2s
+Finish initializing candidate tree set (4)
+Current best tree score: -16561.850 / CPU time: 2.419
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -16561.928 / Time: 0h:0m:3s (0h:0m:8s left)
+Iteration 40 / LogL: -16561.872 / Time: 0h:0m:4s (0h:0m:6s left)
+Iteration 50 / LogL: -16561.953 / Time: 0h:0m:4s (0h:0m:5s left)
+Iteration 60 / LogL: -16561.919 / Time: 0h:0m:5s (0h:0m:3s left)
+Iteration 70 / LogL: -16562.076 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 80 / LogL: -16562.180 / Time: 0h:0m:7s (0h:0m:1s left)
+Iteration 90 / LogL: -16569.213 / Time: 0h:0m:7s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -16561.848
+UPDATE BEST LOG-LIKELIHOOD: -16561.842
+Iteration 100 / LogL: -16561.842 / Time: 0h:0m:8s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -16561.842
+2. Current log-likelihood: -16561.819
+3. Current log-likelihood: -16561.802
+4. Current log-likelihood: -16561.785
+5. Current log-likelihood: -16561.760
+6. Current log-likelihood: -16561.746
+7. Current log-likelihood: -16561.732
+8. Current log-likelihood: -16561.720
+9. Current log-likelihood: -16561.708
+10. Current log-likelihood: -16561.697
+11. Current log-likelihood: -16561.685
+Optimal log-likelihood: -16561.669
+Rate parameters:  A-C: 1.00000  A-G: 2.14272  A-T: 1.00000  C-G: 1.00000  C-T: 4.20602  G-T: 1.00000
+Base frequencies:  A: 0.252  C: 0.211  G: 0.275  T: 0.261
+Site proportion and rates:  (0.655,0.069) (0.214,1.054) (0.108,4.145) (0.023,12.258)
+Parameters optimization took 11 rounds (0.335 sec)
+BEST SCORE FOUND : -16561.669
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.431 sec.
+Total tree length: 2.356
+
+Total number of iterations: 102
+CPU time used for tree search: 32.040 sec (0h:0m:32s)
+Wall-clock time used for tree search: 8.744 sec (0h:0m:8s)
+Total CPU time used: 35.428 sec (0h:0m:35s)
+Total wall-clock time used: 9.601 sec (0h:0m:9s)
+
+Analysis results written to: 
+  IQ-TREE report:                alignment.einsi.trimal_Pedinophyceae.fasta.iqtree
+  Maximum-likelihood tree:       alignment.einsi.trimal_Pedinophyceae.fasta.treefile
+  Likelihood distances:          alignment.einsi.trimal_Pedinophyceae.fasta.mldist
+  Screen log file:               alignment.einsi.trimal_Pedinophyceae.fasta.log
+
+Date and Time: Sat May 29 13:56:35 2021
